@@ -92,7 +92,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#best-albums">Recently Played</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -111,9 +111,6 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -136,7 +133,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             - 3 albums per row when you are on a tablet (or a smaller viewport)
             - 2 albums per row when you are on a small screen
         -->
-    <div class="container">
+    <div id="best-albums" class="container my-5">
+      <h2 class="headers">Recently Played</h2>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
           <div class="card">
@@ -190,6 +188,58 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             </div>
           </div>
         </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+          <div class="card">
+            <img
+              class="img-fluid"
+              src="https://thescoredesigns.files.wordpress.com/2015/09/potc2dmc-cd1.jpg"
+              class="card-img-top"
+              alt="picture"
+            />
+            <div class="card-body">
+              <p class="card-text">Zimmer - Dead Man's Chest</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+          <div class="card">
+            <img
+              class="img-fluid"
+              src="http://3.bp.blogspot.com/-Mx-LtMsShSs/Vc-gYEs0SrI/AAAAAAAAAXM/AqrsjItuMO0/s1600/Pirates%2BOf%2BThe%2BCaribbean-%2BAt%2BWorld%2527s%2BEnd.jpg"
+              class="card-img-top"
+              alt="picture"
+            />
+            <div class="card-body">
+              <p class="card-text">Hans Zimmer - World's End</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+          <div class="card">
+            <img
+              class="img-fluid"
+              src="https://img.discogs.com/vPu8ORPUtAN6-8L8EczFXaHLHXA=/fit-in/600x592/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-3296623-1324493983.jpeg.jpg"
+              class="card-img-top"
+              alt="picture"
+            />
+            <div class="card-body">
+              <p class="card-text">Ludovico Eunadi - ISLANDS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+          <div class="card">
+            <img
+              class="img-fluid"
+              src="https://m.media-amazon.com/images/I/81Abp4J45KL._AC_SL1500_.jpg"
+              class="card-img-top"
+              alt="picture"
+            />
+            <div class="card-body">
+              <p class="card-text">Hans - The Dark Knight</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <hr />
@@ -205,8 +255,9 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             - ... And whatever you think it's interesting about it!
         -->
     <section id="album-rev">
-      <div class="container">
-        <div class="row">
+      <div class="container my-5">
+        <h2 class="headers">Album reviews</h2>
+        <div class="row my-4">
           <div class="col-12 col-md-4">
             <img
               class="img-fluid h-50"
@@ -219,7 +270,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
               <h4 class="font-weight-bold font-italic">
                 Sami Yusuf - Sari Gelin
               </h4>
-              <p>
+              <blockquote class="font-italic">
                 <a href="https://en.wikipedia.org/wiki/Sari_Gelin">Sari Gelin</a
                 >(Azerbaijani: Sarı Gəlin, IPA: [ˈsαːɾɯ gʲæˈlʲin]; ساری گلین‎;
                 Persian: دامن کشان‎, romanized: Dāman Kešān) is the name for a
@@ -231,17 +282,64 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                 consensus about its country of origin is contested. Sari Gelin
                 is either a blond bride or a girl from the mountains, depending
                 on the respective lyric language.
-              </p>
+              </blockquote>
               <button type="button">click me</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <hr />
     <!-- EXERCISE 5
             Worst album list! Choose the albums you dislike or some you think are overrated and list it
             in this "hall of shame" chart! 
         -->
+    <section class="hall-of-shame">
+      <div class="container my-5">
+        <h2 class="headers">The most disliked songs</h2>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+            <div class="card">
+              <img
+                class="img-fluid"
+                src="/racine-caree.jpg"
+                class="card-img-top"
+                alt="picture"
+              />
+              <div class="card-body">
+                <p class="card-text">disliked song</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+            <div class="card">
+              <img
+                class="img-fluid"
+                src="/r-a-m.jpg"
+                class="card-img-top"
+                alt="picture"
+              />
+              <div class="card-body">
+                <p class="card-text">disliked song</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3 mb-md-0">
+            <div class="card">
+              <img
+                class="img-fluid"
+                src="/the-open-door.jpeg"
+                class="card-img-top"
+                alt="picture"
+              />
+              <div class="card-body">
+                <p class="card-text">disliked song</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- EXERCISE 6
             Do you have any musician / band you admire or you are a fan of?
